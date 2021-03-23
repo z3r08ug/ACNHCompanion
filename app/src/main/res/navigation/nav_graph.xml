@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/action_home">
+
+    <fragment
+        android:id="@+id/action_home"
+        android:name="dev.uublabs.chrisvansco.acnhcompanion.ui.frags.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/action_fish"
+        android:name="dev.uublabs.chrisvansco.acnhcompanion.ui.frags.FishFragment"
+        android:label="fragment_fish"
+        tools:layout="@layout/fragment_fish" />
+    <fragment
+        android:id="@+id/action_bugs"
+        android:name="dev.uublabs.chrisvansco.acnhcompanion.ui.frags.BugsFragment"
+        android:label="fragment_bugs"
+        tools:layout="@layout/fragment_bugs" />
+    <fragment
+        android:id="@+id/action_seacreatures"
+        android:name="dev.uublabs.chrisvansco.acnhcompanion.ui.frags.SeaCreaturesFragment"
+        android:label="fragment_turnips"
+        tools:layout="@layout/fragment_turnips" />
+    <fragment
+        android:id="@+id/action_flowers"
+        android:name="dev.uublabs.chrisvansco.acnhcompanion.ui.frags.FlowersFragment"
+        android:label="fragment_flowers"
+        tools:layout="@layout/fragment_flowers" />
+</navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "546522805342",
+    "firebase_url": "https://acnh-companion-a2843.firebaseio.com",
+    "project_id": "acnh-companion-a2843",
+    "storage_bucket": "acnh-companion-a2843.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546522805342:android:4b9b61eb3d8ccbfd9e30cf",
+        "android_client_info": {
+          "package_name": "dev.uublabs.chrisvansco.acnhcompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546522805342-kju204g7tn637v6m0nn3s31ul0khousm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.uublabs.chrisvansco.acnhcompanion",
+            "certificate_hash": "dc5aa46288b4b1e45e4036fc99c8a17a0d9bcb93"
+          }
+        },
+        {
+          "client_id": "546522805342-m3008a0q088hr6p7m9n0g3lbt88c0fb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6pnbfYtq0Pze1d4nSu_MBwE0D-uAra8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546522805342-m3008a0q088hr6p7m9n0g3lbt88c0fb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

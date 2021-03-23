@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/acnh_bg"
+    tools:context=".ui.activities.LoginActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <ProgressBar
+        android:id="@+id/loginPB"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:translationZ="5dp"/>
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="15dp"
+        android:autofillHints=""
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailET"
+        android:layout_margin="15dp"
+        android:autofillHints=""
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_password"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/loginBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordET"
+        android:layout_margin="15dp"
+        android:background="@drawable/button"
+        android:onClick="login"
+        android:text="@string/login"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/signupBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBTN"
+        android:layout_margin="15dp"
+        android:background="@drawable/button"
+        android:onClick="signUp"
+        android:text="@string/sign_up"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/offlineBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupBTN"
+        android:layout_margin="15dp"
+        android:background="@drawable/button"
+        android:onClick="startOffline"
+        android:text="Login Offline"
+        android:textSize="24sp" />
+
+</RelativeLayout>

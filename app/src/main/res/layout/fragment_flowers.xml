@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.frags.FlowersFragment">
+
+    <ScrollView
+        android:id="@+id/flowerListSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cosmoTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/cosmos"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/cosmosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cosmoTV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/cosmo" />
+
+            <ImageView
+                android:id="@+id/cosmosCombosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cosmosIV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/cosmos"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/roseTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cosmosCombosIV"
+                android:layout_centerHorizontal="true"
+                android:text="@string/roses"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/rosesIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/roseTV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/rose" />
+
+            <ImageView
+                android:id="@+id/rosesCombosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rosesIV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/roses"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/liliesTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rosesCombosIV"
+                android:layout_centerHorizontal="true"
+                android:text="@string/lilies"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/liliesIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/liliesTV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/lily" />
+
+            <ImageView
+                android:id="@+id/liliesCombosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/liliesIV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/lilies"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/pansiesTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/liliesCombosIV"
+                android:layout_centerHorizontal="true"
+                android:text="@string/pansies"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/pansiesIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pansiesTV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/pansie" />
+
+            <ImageView
+                android:id="@+id/pansiesCombosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pansiesIV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/pansies"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/hyacinthsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pansiesCombosIV"
+                android:layout_centerHorizontal="true"
+                android:text="@string/hyacinths"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/hyancinthsIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hyacinthsTV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/hyacinth" />
+
+            <ImageView
+                android:id="@+id/hyacinthsCombosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hyancinthsIV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/hyancinths"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/mumsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hyacinthsCombosIV"
+                android:layout_centerHorizontal="true"
+                android:text="@string/mums"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/mumsIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mumsTV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mum" />
+
+            <ImageView
+                android:id="@+id/mumsCombosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mumsIV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mums"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tulipsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mumsCombosIV"
+                android:layout_centerHorizontal="true"
+                android:text="@string/tulips"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/tulipsIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tulipsTV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tulip" />
+
+            <ImageView
+                android:id="@+id/tulipsCombosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tulipsIV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tulips"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/windflowersTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tulipsCombosIV"
+                android:layout_centerHorizontal="true"
+                android:text="@string/windflowers"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/windflowersIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/windflowersTV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/windflower" />
+
+            <ImageView
+                android:id="@+id/windflowersCombosIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/windflowersIV"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/windflowers"
+                android:visibility="gone"
+                tools:visibility="visible" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

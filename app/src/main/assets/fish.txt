@@ -1,0 +1,560 @@
+Bitterling
+900
+Tiny
+River
+All Day
+November, December, January, February, March
+May, June, July, August, September
+Pale Chub
+160
+Tiny Shadow
+River
+9am - 4pm
+All Months
+All Months
+Crucian Carp
+160
+Small Shadow
+River
+All Day
+All Months
+All Months
+Dace
+240
+Medium Shadow
+River
+4pm - 9am
+All Months
+All Months
+Carp
+300
+Large Shadow
+Pond
+All Day
+All Months
+All Months
+Koi
+4,000
+Large Shadow
+Pond
+4pm - 9am
+All Months
+All Months
+Goldfish
+1,300
+Tiny Shadow
+Pond
+All Day
+All Months
+All Months
+Pop-eyed Goldfish
+1,300
+Tiny Shadow
+Pond
+9am - 4pm
+All Months
+All Months
+Ranchu Goldfish
+4,500
+Small Shadow
+Pond
+9am - 4pm
+All Months
+All Months
+Killifish
+300
+Tiny Shadow
+Pond
+All Day
+April, May, June, July, August
+October, November, December, January, February
+Crawfish
+200
+Small Shadow
+Pond
+All Day
+April, May, June, July, August, September
+October, November, December, January, February, March
+Soft-shelled Turtle
+3,750
+Large Shadow
+River
+4pm - 9am
+August, September
+February, March
+Snapping Turtle
+5,000
+Large Shadow
+River
+9pm - 4am
+April, May, June, July, August, September, October
+October, November, December, January, February, March, April
+Tadpole
+100
+Tiny Shadow
+Pond
+All Day
+March, April, May, June, July
+September, October, November, December, January
+Frog
+120
+Small Shadow
+Pond
+All Day
+May, June, July, August
+November, December, January, February
+Freshwater Goby
+400
+Small Shadow
+River
+4pm - 9am
+All Months
+All Months
+Loach
+400
+Small Shadow
+River
+All Day
+March, April, May
+September, October, November
+Catfish
+800
+Large Shadow
+Pond
+4pm - 9am
+May, June, July, August, September, October
+November, December, January, February, March, April
+Giant Snakehead
+5,500
+Extra Large Shadow
+Pond
+9am - 4pm
+June, July, August
+December, January, February
+Bluegill
+180
+Small Shadow
+River
+9am - 4pm
+All Months
+All Months
+Yellow Perch
+300
+Medium Shadow
+River
+All Day
+October, November, December, January, February, March
+April, May, June, July, August, September
+Black Bass
+400
+Large Shadow
+River
+All Day
+All Months
+All Months
+Tilapia
+800
+Medium Shadow
+River
+All Day
+June, July, August, September, October
+December, January, February, March, April
+Pike
+1,800
+Extra Large Shadow
+River
+All Day
+September, October, November, December
+March, April, May, June
+Pond Smelt
+500
+Small Shadow
+River
+All Day
+December, January, February
+June, July, August
+Sweetfish
+900
+Medium Shadow
+River
+All Day
+July, August, September
+December, January, February, March
+Cherry Salmon
+1,000
+Medium Shadow
+River (Clifftop)
+4pm - 9am
+March, April, May, June, September, October, November
+March, April, May, September, October, November, December
+Char
+3,800
+Medium Shadow
+River (Clifftop)
+4pm - 9am
+March, April, May, June, September, October, November
+September, October, November, December & March, April, May
+Golden Trout
+15,000
+Medium Size
+River (Clifftop)
+4pm - 9am
+March, April, May & September, October, November
+September, October, November & March, April, May
+Stringfish
+15,000
+Extra Large Shadow
+River (Clifftop)
+4pm - 9am
+December, January, February, March
+June, July, August, September
+Salmon
+700
+Large Shadow
+River (Mouth)
+All Day
+September
+March
+King Salmon
+1,800
+Largest Shadow
+River (Mouth)
+All Day
+September
+March
+Mitten Crab
+2,000
+Small Shadow
+River
+4pm - 9am
+September, October, November
+March, April, May
+Guppy
+1,300
+Tiny Shadow
+River
+9am - 4pm
+April, May, June, July, August, September, October, November
+October, November, January, February, March, April, May
+Nibble Fish
+1,500
+Tiny Shadow
+River
+9am - 4pm
+May, June, July, August, September
+November, December, January, February, March
+Angelfish
+3,000
+Small Shadow
+River
+4pm - 9am
+May, June, July, August, September, October
+November, December, January, February, March, April
+Betta
+2,500
+Small Shadow
+River
+9am - 4pm
+May, June, July, August, September, October
+November, December, January, February, March
+Neon Tetra
+500
+Tiny Shadow
+River
+9am - 4pm
+April, May, June, July, August, September, October, November
+October, November, December, January, February, March, April, May
+Rainbowfish
+800
+Tiny Shadow
+River
+9am - 4pm
+May, June, July, August, September, October
+November, December, January, February, March, April
+Piranha
+2,500
+Small Shadow
+River
+9am - 4pm & 9pm - 4am
+June, July, August, September
+December, January, February, March
+Arowana
+10,000
+Large Shadow
+River
+4pm - 9am
+June, July, August, September
+December, January, February, March
+Dorado
+15,000
+Extra Large Shadow
+River
+4am - 9pm
+June, July, August, September
+December, January, February, March
+Gar
+6,000
+Largest Shadow
+Pond
+4pm - 9am
+June, July, August, September
+December, January, February, March
+Arapaima
+10,000
+Largest Shadow
+River
+4pm - 9am
+June, July, August, September
+December, January, February, March, April
+Saddled Bichir
+4,000
+Large Shadow
+River
+9pm - 4am
+June, July, August, September
+December, January, February, March
+Sturgeon
+10,000
+Largest Shadow
+River (Mouth)
+All Day
+September, October, November, December, January, February, March
+March, April, May, June, July, August, September
+Sea Butterfly
+1,000
+Tiny Shadow
+Sea
+All Day
+December, January, February, March
+June, July, August, September
+Seahorse
+1,100
+Tiny Shadow
+Sea
+All Day
+April, May, June, July, August, September, October, November
+October, November, January, February, March, April, May
+Clownfish
+650
+Tiny Shadow
+Ocean
+All Day
+April, May, June, July, August, September
+October, November, December, January, February, March
+Surgeonfish
+1,000
+Small Shadow
+Sea
+All Day
+April, May, June, July, August, September
+October, November, December, January, February, March
+Butterfly Fish
+1,000
+Small Shadow
+Sea
+All Day
+April, May, June, July, August, September
+October, November, December, January, February, March
+Napoleonfish
+10,000
+Largest Size
+Sea
+4am - 9pm
+July, August
+January, February
+Zebra Turkeyfish
+500
+Medium Shadow
+Sea
+All Day
+April, May, June, July, August, September, October, November
+October, November, December, January, February, March, April, May
+Blowfish
+5,000
+Medium Shadow
+Sea
+9pm - 4am
+November, December, January, February
+May, June, July, August
+Puffer Fish
+250
+Medium Shadow
+Sea
+All Day
+July, August, September
+January, February, March
+Anchovy
+200
+Small Shadow
+Sea
+4am - 9pm
+All Months
+All Months
+Horse Mackerel
+150
+Small Shadow
+Sea
+All Day
+All Months
+All Months
+Barred Knifejaw
+5,000
+Medium Shadow
+Sea
+All Day
+March, April, May, June, July, August, September, October, November
+September, October, November, December, January, February, March, April, May
+Sea Bass
+400
+Extra Large Shadow
+Sea
+All Day
+All Months
+All Months
+Red Snapper
+3,000
+Large Shadow
+Sea
+All Day
+All Months
+All Months
+Dab
+300
+Medium Shadow
+Sea
+All Day
+October, November, December, January, February, March, April
+August, September, October
+Olive Flounder
+800
+Extra Large Shadow
+Sea
+All Day
+All Months
+All Months
+Squid
+500
+Medium Shadow
+Sea
+All Day
+December, January, February, March, April, May, June, July, August,
+June, July, August, September, October, November, December, January, February
+Moray Eel
+2,000
+Medium (Narrow) Shadow
+Sea
+All Day
+August, September, October
+February, March, April
+Ribbon Eel
+600
+Medium (Narrow) Shadow
+Sea
+All Day
+June, July, August, September, October
+December, January, February, March, April
+Tuna
+7,000
+Largest Shadow
+Pier
+All Day
+November, December, January, February, March, April
+May, June, July, August, September, October
+Blue Marlin
+10,000
+Largest Shadow
+Pier
+All Day
+November, December, January, February, March, April & July, August, September,
+January, February, March & May, June, July, August, September, October
+Giant Trevally
+4,500
+Extra Large Shadow
+Pier
+All Day
+May, June, July, August, September
+November, December, January, February, March
+Mahi-mahi
+6,000
+Extra Large Shadow
+Pier
+All Day
+May, June, July, August, September, October
+November, December, January, February, March, April
+Ocean Sunfish
+4,000
+Largest (Finned) Shadow
+Sea
+4am - 9pm
+July, August, September
+January, February, March
+Ray
+3,000
+Extra Large Shadow
+Sea
+4am - 9pm
+August, September, October, November
+February, March, April, May
+Saw Shark
+12,000
+Largest (Finned) Shadow
+Sea
+4pm - 9am
+June, July, August, September
+December, January, February, March
+Hammerhead Shark
+8,000
+Largest (Finned) Shadow
+Sea
+4pm - 9am
+June, July, August, September
+December, January, February, March
+Great White Shark
+15,000
+Largest (Finned) Shadow
+Sea
+4pm - 9am
+June, July, August, September
+December, January, February, March
+Whale Shark
+13,000
+Largest (Finned) Shadow
+Sea
+All Day
+June, July, August, September
+December, January, February, March
+Suckerfish
+1,500
+Large (Finned) Shadow
+Sea
+All Day
+June, July, August, September
+December, January, February, March
+Football Fish
+2,500
+Large Shadow
+Sea
+4pm - 9am
+November, December, January, February, March
+May, June, July, August, September
+Oarfish
+9,000
+Largest Shadow
+Sea
+All Day
+December, January, February, March, April, May
+June, July, August, September, October, November
+Barreleye
+15,000
+Small Shadow
+Sea
+9pm - 4am
+All Months
+All Months
+Coelacanth
+15,000
+Largest Shadow
+Sea (Rainy Days)
+All Day
+All Months
+All Months

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".ui.frags.HomeFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/usernameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/user_name_placeholder"
+                android:textStyle="bold"
+                android:textSize="28sp"/>
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--                android:id="@+id/avatarIV"-->
+<!--                android:layout_below="@id/usernameTV"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                app:civ_border_width="2dp"-->
+<!--                app:civ_border_color="@android:color/black"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:src="@mipmap/ic_launcher"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="15dp"/>-->
+
+            <TextView
+                android:id="@+id/fishDescTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/usernameTV"
+                android:text="@string/fish_obtained"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/fishCaughtTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/usernameTV"
+                android:paddingStart="10dp"
+                android:text="@string/unavailable"
+                android:layout_toEndOf="@id/fishDescTV"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/bugsDescTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fishDescTV"
+                android:text="@string/bugs_obtained"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+
+            <TextView
+                android:id="@+id/bugsCaughtTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fishDescTV"
+                android:paddingStart="10dp"
+                android:text="@string/unavailable"
+                android:layout_toEndOf="@id/bugsDescTV"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/seaCreaturesDescTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bugsDescTV"
+                android:text="@string/seacreatures_obtained"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+
+            <TextView
+                android:id="@+id/seaCreaturesCaughtTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bugsDescTV"
+                android:paddingStart="10dp"
+                android:text="@string/unavailable"
+                android:layout_toEndOf="@id/seaCreaturesDescTV"
+                android:textSize="22sp"/>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_below="@id/seaCreaturesDescTV"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/monthlyFishLabelTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:text="@string/catchable_fish"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/monthlyFishTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/monthlyFishLabelTV"
+                android:text="@string/fish_placeholder"
+                android:textSize="22sp"/>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_below="@id/monthlyFishTV"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/monthlyBugsLabelTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider2"
+                android:text="@string/catchable_bugs"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/monthlyBugsTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/monthlyBugsLabelTV"
+                android:text="@string/bugs_placeholder"
+                android:textSize="22sp"/>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_below="@id/monthlyBugsTV"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/monthlySeaCreaturesLabelTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider3"
+                android:text="@string/catchable_seacreatures"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/monthlySeaCreaturesTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/monthlySeaCreaturesLabelTV"
+                android:text="@string/bugs_placeholder"
+                android:textSize="22sp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>

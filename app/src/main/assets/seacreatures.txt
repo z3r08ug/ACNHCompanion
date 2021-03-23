@@ -1,0 +1,280 @@
+Seaweed
+October, November, December, January, February, March, April, May, June, July
+April, May, June, July, August, September, October, November, December, January
+All Day
+Large
+Still
+600
+Sea Grapes 
+June, July, August, September
+December, January, February, March
+All Day
+Small
+Still
+900
+Sea Cucumber 
+November, December, January, February, March, April
+May, June, July, August, September, October
+All Day
+Medium
+X-Slow
+500
+Sea Pig 
+November, December, January, February
+May, June, July, August
+4PM to 9AM
+Small
+X-Fast
+10000
+Sea Star 
+All Year
+All Year
+All Day
+Small
+X-Slow
+500
+Sea Urchin
+May, June, July, August, September
+November, December, January, February, March
+All Day
+Small
+Slow
+1700
+Slate Pencil Urchin 
+May, June, July, August, September
+November, December, January, February, March
+4PM to 9AM
+Medium
+Medium
+2000
+Sea Anemone 
+All Year
+All Year
+All Day
+Large
+Still
+500
+Moon Jellyfish 
+July, August, September
+January, February, March
+All Day
+Small
+X-Slow
+600
+Sea Slug 
+All Year
+All Year
+All Day
+X-Small
+X-Slow
+600
+Pearl Oyster 
+All Year
+All Year
+All Day
+Small
+Medium
+2800
+Mussel 
+June, July, August, September, October, November, December
+December, January, February, March, April, May, June
+All Day
+Small
+Slow
+1500
+Oyster 
+September, October, November, December, January, February
+March, April, May, June, July, August
+All Day
+Small
+Slow
+1100
+Scallop 
+All Year
+All Year
+All Day
+Medium
+Slow
+1200
+Whelk 
+All Year
+All Year
+All Day
+Small
+Slow
+1000
+Turban Shell 
+March, April, May, September, October, November, December
+March, April, May, June, September, October, November
+All Day
+Small
+Slow
+1000
+Abalone 
+June, July, August, September, October, November, December, January
+December, January, February, March, April, May, June, July
+4PM to 9AM
+Medium
+Medium
+2000
+Gigas Giant Clam 
+May, June, July, August, September
+November, December, January, February, March
+All Day
+X-Large
+X-Fast
+15000
+Chambered Nautilus 
+March, April, May, June, September, October, November
+March, April, May, September, October, November, December
+4PM to 9AM
+Medium
+Medium
+1800
+Octopus 
+All Year
+All Year
+All Day
+Medium
+Slow
+1200
+Umbrella Octopus 
+March, April, May, September, October, November, December
+March, April, May, September, October, November, December
+All Day
+Small
+Fast
+6000
+Vampire Squid 
+May, June, July, August
+November, December, January, February
+4PM to 9AM
+Medium
+X-Fast
+10000
+Firefly Squid 
+March, April, May, June
+September, October, November, December
+9PM to 4AM
+X-Small
+Slow
+1400
+Gazami Crab 
+June, July, August, November
+December, January, February, March, April, May
+All Day
+Medium
+Medium
+2200
+Dungeness Crab 
+November, December, January, February, March, April, May
+May, June, July, August, September, October, November
+All Day
+Medium
+Medium
+1900
+Snow Crab 
+November, December, January, February, March, April
+May, June, July, August, September, October
+All Day
+Large
+Fast
+6000
+Red King Crab 
+November, December, January, February, March
+May, June, July, August, September
+All Day
+Large
+X-Fast
+8000
+Acorn Barnacle 
+All Year
+All Year
+All Day
+X-Small
+Still
+600
+Spider Crab 
+March, April
+September, October
+All Day
+X-Large
+X-Fast
+12000
+Tiger Prawn 
+June, July, August, September
+December, January, February, March
+4PM to 9AM
+Small
+Medium
+3000
+Sweet Shrimp 
+September, October, November, December, January, February
+March, April, May, June, July, August
+4PM to 9AM
+Small
+Slow
+1400
+Mantis Shrimp 
+All Year
+All Year
+4PM to 9AM
+Small
+Medium
+2500
+Spiny Lobster 
+October, November, December
+April, May, June
+9PM to 4AM
+Large
+Fast
+5000
+Lobster 
+April, May, June, December, January
+June, July, October, November
+All Day
+Large
+Fast
+4500
+Giant Isopod 
+July, August, September, October
+January, February, March, April
+9AM to 4PM; 9PM to 4AM
+Medium
+X-Fast
+12000
+Horseshoe Crab 
+July, August, September
+January, February, March
+9PM to 4AM
+Medium
+Medium
+2500
+Sea Pineapple 
+April, May, June, July, August
+October, November, December, January, February
+All Day
+Small
+Slow
+1500
+Spotted Garden Eel 
+May June, July, August, September, October
+November, December, January, February, March, April
+4AM to 9PM
+Small
+Slow
+1100
+Flatworm
+August, September
+February, March
+4PM to 9AM
+X-Small
+X-Slow
+700
+Venus’ Flower Basket
+October, November, December, January, February
+April, May June, July, August
+All Day
+Medium
+Fast
+5000

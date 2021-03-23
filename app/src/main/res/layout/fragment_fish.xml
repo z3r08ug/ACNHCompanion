@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@android:color/darker_gray"
+    tools:context=".ui.frags.FishFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/stillNeededTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/still_needed_for_this_month"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/stillNeededFishRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stillNeededTitleTV"/>
+
+            <View
+                android:id="@+id/div"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_below="@id/stillNeededFishRV"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/notCaughtTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/div"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/not_caught"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/notCaughtFishRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/notCaughtTitleTV"/>
+
+            <View
+                android:id="@+id/div1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_below="@id/notCaughtFishRV"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/caughtTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/div1"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/caught"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/caughtFishRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caughtTitleTV"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

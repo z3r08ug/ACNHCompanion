@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/action_fish"
+        android:title="Fish"
+        android:icon="@drawable/ic_fish"/>
+    <item android:id="@+id/action_bugs"
+        android:title="Bugs"
+        android:icon="@drawable/ic_bug"/>
+    <item android:id="@+id/action_flowers"
+        android:title="Flowers"
+        android:icon="@drawable/ic_flower"/>
+    <item android:id="@+id/action_seacreatures"
+        android:title="Sea Creatures"
+        android:icon="@drawable/ic_baseline_waves_24"/>
+</menu>

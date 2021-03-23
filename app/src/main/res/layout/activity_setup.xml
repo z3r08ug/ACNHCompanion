@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.SetupActivity"
+    android:background="@drawable/acnh_bg">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/userNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="5dp"
+        android:autofillHints=""
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/friendCodeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userNameET"
+        android:layout_margin="5dp"
+        android:autofillHints=""
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="@string/friend_code"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/regionRG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/friendCodeET"
+        android:layout_centerHorizontal="true">
+        <RadioButton
+            android:id="@+id/northernHemisphereRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/northern_hemisphere"
+            android:checked="true"
+            android:textSize="22sp"/>
+        <RadioButton
+            android:id="@+id/southernHemisphereRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/southern_hemisphere"
+            android:textSize="22sp"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/save_information"
+        android:layout_alignParentBottom="true"
+        android:onClick="saveInformation"/>
+
+    <ProgressBar
+        android:id="@+id/setupPB"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:translationZ="5dp"/>
+
+</RelativeLayout>

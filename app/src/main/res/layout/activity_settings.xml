@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.SettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/settingsProfilePicCIV"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:layout_height="250dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:src="@drawable/ic_launcher_background" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentStart="true"
+                android:text="Username:"
+                android:padding="12dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/settingsUsernameET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/inputs"
+                android:layout_alignParentEnd="true"
+                android:hint="Username"
+                android:padding="12dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settingsUsernameET"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentStart="true"
+                android:text="Full Name:"
+                android:padding="12dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/settingsFullNameET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settingsUsernameET"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/inputs"
+                android:hint="Full Name"
+                android:padding="12dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settingsFullNameET"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentStart="true"
+                android:text="Region:"
+                android:padding="12dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/settingsRegionET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settingsFullNameET"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/inputs"
+                android:hint="Region"
+                android:padding="12dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settingsRegionET"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentStart="true"
+                android:text="Friend Code:"
+                android:padding="12dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/settingsFriendCodeET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/settingsRegionET"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/inputs"
+                android:hint="Friend Code"
+                android:padding="12dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnUpdateSettings"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/settingsFriendCodeET"
+                android:layout_margin="20dp"
+                android:background="@drawable/button"
+                android:text="Update Account Settings"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

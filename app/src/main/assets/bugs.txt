@@ -1,0 +1,480 @@
+Common Butterfly
+160
+Above Flowers
+4am - 7pm
+September, October, November, December, January, February, March, April, May, June
+March, April, May, June, July, August, September, October, November, December
+Yellow Butterfly
+160
+Flying
+4am - 7pm
+March, April, May, June, September, October
+March, April, September, October, November, December
+Tiger Butterfly
+240
+Flying
+4am - 7pm
+March, April, May, June, July, August, September
+September, October, November, December, January, February, March
+Peacock Butterfly
+2,500
+Above Purple, Black and Blue Flowers
+4am - 7pm
+March, April, May, June
+September, October, November, December
+Common Bluebottle
+300
+Flying
+4am - 7pm
+April, May, June, July, August
+October , November, December, January, February
+Paper Kite Butterfly
+1,000
+Flying
+8am - 7pm
+All Months
+All Months
+Great Purple Emperor
+3,000
+Flying
+4am - 7pm
+May, June, July, August
+November, December, January, February
+Monarch Butterfly
+140
+Flying
+4am - 5pm
+September, October, November
+March, April, May
+Emperor Butterfly
+4,000
+Flying
+5pm - 8am
+December, January, February, March, June, July, August, September
+January, February, March, June, July, August, September, December
+Agrias Butterfly
+3,000
+Flying
+8am - 5pm
+April, May, June, July, August, September
+October, November, December, January, February, March
+Rajah Brooke's Birdwing
+2,500
+Flying above Flowers
+8am - 5pm
+December January, February, April, May, June, July, August, September
+June, July, August, October, November, December, January, February, March
+Queen Alexandra's Birdwing
+4,000
+Flying
+8am - 4pm
+May, June, July, August, September
+November, December, January, February, March, April
+Moth
+130
+Flying Around Light
+7pm - 4am
+All Months
+All Months
+Atlas Moth
+3,000
+On Trees
+7pm - 4am
+April, May, June, July, August, September
+October, November, December, January, February, March,
+Madagascan Sunset Moth
+2,500
+Flying
+8am - 4pm
+April, May, June, July, August, September
+October, November, December, January, February, March
+Long Locust
+200
+On the Ground
+8am - 7pm
+April, May, June, July, August, September, October, November
+October, November, December, January, February, March, April, May
+Migratory Locust
+600
+On the Ground
+8am - 7pm
+August, September, October, November
+February, March, April, May
+Rice Grasshopper
+160
+On the Ground
+8am - 7pm
+August, September, October, November
+February, March, April, May
+Grasshopper
+160
+On the Ground
+8am - 5pm
+July, August, September
+January, February, March
+Cricket
+130
+On the Ground
+5pm - 8am
+September, October, November
+March, April, May
+Bell Cricket
+430
+On the Ground
+5pm - 8am
+September, October
+March, April
+Mantis
+430
+On Flowers
+8am - 5pm
+March, April, May, June, July, August, September, October, November
+September, October, November, December, January, March, April
+Orchid Mantis
+2,400
+On Flowers (White)
+8am - 5pm
+March, April, May, June, July, August, September, October, November
+September, October, November, December, January, February, March, April, May
+Honeybee
+200
+Above Flowers
+8am - 5pm
+March, April, May, June, July
+September, October, November, December, January
+Wasp
+2,500
+Shaking Trees
+All Day
+All Months
+All Months
+Brown Cicada
+250
+On Trees
+8am - 5pm
+July, August
+January, February
+Robust Cicada
+300
+On Trees
+8am - 5pm
+July, August
+January, February
+Giant Cicada
+500
+On Trees
+8am - 5pm
+July, August
+January, February
+Walker Cicada
+400
+On Trees
+8am - 4pm
+August, September
+February, March
+Evening Cicada
+550
+On Trees
+4am - 8am & 4pm - 7pm
+July, August
+January, February
+Cicada Shell
+10
+On Trees
+All Day
+July, August
+January, February
+Red Dragonfly
+180
+Flying
+8am - 7pm
+September, October
+March, April
+Darner Dragonfly
+230
+Flying
+8am - 5pm
+April, May, June, July, August, September, October
+October, November, December, January, February, March, April
+Banded Dragonfly
+4,500
+Flying
+8am - 5pm
+May, June, July, August, September, October
+November, December, January, February, March, April
+Damselfly
+500
+Flying
+All Day
+November, December, January, February
+May, June, July, August
+Firefly
+300
+Flying
+7pm - 4pm
+June
+December
+Mole cricket
+500
+Underground
+All Day
+November, December, January, February, March, April, May
+May, June, July, August, September, October, November
+Pondskater
+130
+On Ponds and Rivers
+8am - 7pm
+May, June, July, August, September
+November, December, January, February, March
+Diving Beetle
+800
+On Ponds and Rivers
+8am - 7pm
+May, June, July, August, September
+November, December, January, February, March
+Giant Water Bug
+2,000
+On Ponds and Rivers
+7pm - 8am
+April, May, June, July, August, September
+January, February, March, October, November, December
+Stinkbug
+120
+On Flowers
+All Day
+March, April, May, June, July, August, September, October
+September, October, November, December, January, February, March, April
+Man-faced Stink Bug
+1,000
+On Flowers
+7pm - 8am
+March, April, May, June, July, August, September, October
+September, October, November, December, January, February, March, April
+Ladybug
+200
+On Flowers
+8am - 5pm
+March, April, May, June, October
+April & September, October, November, December
+Tiger Beetle
+1,500
+Flying
+All Day
+February, March, April, May, June, July, August, September, October
+September, October, November, December, January, February, March
+Jewel Beetle
+2,400
+On Tree Stumps
+All Day
+April, May, June, July, August
+October, November, December, January, February
+Citrus Long-horned Beetle
+350
+On Tree Stumps
+All Day
+All Months
+All Months
+Rosalia Batesi Beetle
+3,000
+On Tree Stumps
+All Day
+May, June, July, August, September
+November, December, January, February, March
+Blue Weevil Beetle
+800
+On Trees
+All Day
+July, August
+January, February
+Violin Beetle
+450
+On Trees
+All Day
+May, June, September, October, November
+March, April, May, November, December
+Dung Beetle
+3,000
+On the Ground (Rolling Snowballs)
+All Day
+December, January, February
+June, July, August
+Earth-boring Dung Beetle
+300
+On Ground
+All Day
+July, August, September
+January, February, March
+Scarab Beetle
+10,000
+On Trees
+11pm - 8am
+July, August
+January, February
+Drone Beetle
+200
+On Trees
+All Day
+June, July, August
+December, January, February
+Goliath Beetle
+8,000
+On Trees (Coconut)
+5pm - 8am
+June, July, August, September
+December, January, February, March, April
+Saw Stag
+2,000
+On Trees
+All Day
+July, August
+January, February
+Miyama Stag
+1,000
+On Trees
+All Day
+July, August
+January, February
+Giant Stag
+10,000
+On Trees
+11pm - 8am
+July, August
+January, February
+Rainbow Stag
+6,000
+On Trees
+7pm - 8am
+June, July, August, September
+December, January, February, March
+Cyclommatus Stag
+8,000
+On Trees
+5pm - 8am
+July, August
+January, February
+Golden Stag
+12,000
+On Trees
+5pm - 8am
+July, August
+January, February
+Giraffe Stag
+12,000
+On Trees
+5pm - 8am
+July, August
+January, February
+Horned Dynastid
+1,350
+On Trees
+5pm - 8am
+July, August
+January, February
+Horned Atlas
+8,000
+On Trees
+5pm - 8am
+July, August
+January, February
+Horned Elephant
+8,000
+On Trees
+5pm - 8am
+July, August
+January, February
+Horned Hercules
+12,000
+On Trees
+5pm - 8am
+July, August
+January, February
+Walking Stick
+600
+On Trees
+4am - 8am & 5pm - 7pm
+July, August, September, October, November
+January, February, March, April, May
+Walking Leaf
+600
+On Ground (Beneath Trees)
+All Day
+July, August, September
+January, February, March
+Bagworm
+600
+Shaking trees
+All Day
+All Months
+All Months
+Ant
+80
+On Rotten Turnips and Fruit
+All Day
+All Months
+All Months
+Hermit Crab
+1,000
+On Beach
+7pm - 8am
+All Months
+All Months
+Wharf Roach
+200
+On Beach (Rocks)
+All Day
+All Months
+All Months
+Fly
+60
+On Rotten Food and Garbage
+All Day
+All Months
+All Months
+Mosquito
+130
+Flying
+5pm - 4am
+June, July, August, September
+December, January, February, March
+Flea
+70
+On Flea-Infested Villagers
+All Day
+April, May, June, July, August, September, October, November
+October, November, December, January, February, March, April, May
+Snail
+250
+On Rocks (Rain)
+All Day
+All Months
+All Months
+Pill Bug
+250
+Hitting Rocks
+11pm - 4pm
+September, October, November, December, January, February, March, April, May, June
+March, April, May, June, July, August, September, October, November, December
+Centipede
+300
+Hitting Rocks
+5pm - 11pm
+September, October, November, December, January, February, March, April, May, June
+March, April, May, June, July, August, September, November, December
+Spider
+480
+Shaking Trees
+7pm - 8am
+All Months
+All Months
+Tarantula
+8,000
+On Ground
+7pm - 4am
+November, December, January, February, March, April
+May, June, July, August, September, October
+Scorpion
+8,000
+On Ground
+7pm - 4am
+May, June, July, August, September, October
+November, December, January, February, March, April

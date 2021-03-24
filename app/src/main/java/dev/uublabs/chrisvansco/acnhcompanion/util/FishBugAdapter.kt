@@ -77,7 +77,9 @@ class FishBugAdapter(private val fragment: Fragment, private val fishList: List<
                 if (bug != null) {
                     id = context.resources
                         .getIdentifier(
-                            bug.name.toLowerCase(Locale.getDefault()).replace(" ", "").replace("'", "")
+                            bug.name.toLowerCase(Locale.getDefault())
+                                .replace(" ", "")
+                                .replace("'", "")
                                 .replace("-", ""),
                             "drawable",
                             context.packageName)

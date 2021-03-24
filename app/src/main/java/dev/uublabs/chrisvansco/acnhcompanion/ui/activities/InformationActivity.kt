@@ -124,7 +124,10 @@ class InformationActivity : BaseActivity() {
             try {
                 imageId = imageContext.resources
                         .getIdentifier(
-                                bug!!.name.toLowerCase(Locale.getDefault()).replace(" ", "").replace("'", ""),
+                                bug!!.name.toLowerCase(Locale.getDefault())
+                                    .replace(" ", "")
+                                    .replace("'", "")
+                                    .replace("-", ""),
                                 "drawable",
                                 imageContext.packageName)
                 imageCIV.setImageResource(imageId)

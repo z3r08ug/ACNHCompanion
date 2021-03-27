@@ -9,14 +9,15 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.switchmaterial.SwitchMaterial
 import dev.uublabs.chrisvansco.acnhcompanion.R
 import dev.uublabs.chrisvansco.acnhcompanion.ui.activities.MainActivity.Companion.bugViewModel
 import dev.uublabs.chrisvansco.acnhcompanion.ui.activities.MainActivity.Companion.fishViewModel
 import dev.uublabs.chrisvansco.acnhcompanion.ui.activities.MainActivity.Companion.seaCreatureViewModel
-import dev.uublabs.chrisvansco.acnhcompanion.util.BugDictionary
-import dev.uublabs.chrisvansco.acnhcompanion.util.FishDictionary
-import dev.uublabs.chrisvansco.acnhcompanion.util.SeaCreatureDictionary
-import dev.uublabs.chrisvansco.acnhcompanion.util.TimeUtil
+import dev.uublabs.chrisvansco.acnhcompanion.util.*
+import java.util.*
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -35,6 +36,11 @@ class HomeFragment : Fragment() {
     private lateinit var fishCaughtTV: TextView
     private lateinit var bugsCaughtTV: TextView
     private lateinit var seaCreaturesCaughtTV: TextView
+    private lateinit var iconSW: SwitchMaterial
+    private lateinit var fishRV: RecyclerView
+    private lateinit var bugsRV: RecyclerView
+    private lateinit var seaCreaturesRV: RecyclerView
+    private lateinit var fishAdapter: FishBugAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -53,10 +59,25 @@ class HomeFragment : Fragment() {
         fishCaughtTV = view.findViewById(R.id.fishCaughtTV)
         bugsCaughtTV = view.findViewById(R.id.bugsCaughtTV)
         seaCreaturesCaughtTV = view.findViewById(R.id.seaCreaturesCaughtTV)
+        iconSW = view.findViewById(R.id.iconSW)
+        fishRV = view.findViewById(R.id.fishRV)
+        bugsRV = view.findViewById(R.id.bugsRV)
+        seaCreaturesRV = view.findViewById(R.id.seaCreaturesRV)
 
         val fishDictionary = FishDictionary(activity)
         val bugDictionary = BugDictionary(activity)
         val seaCreatureDictionary = SeaCreatureDictionary(activity)
+
+        val fishManager =
+            GridLayoutManager(activity, 4)
+        val bugsManager =
+            GridLayoutManager(activity, 4)
+        val seaCreatureManager =
+            GridLayoutManager(activity, 4)
+
+        fishRV.layoutManager = fishManager
+        bugsRV.layoutManager = bugsManager
+        seaCreaturesRV.layoutManager = seaCreatureManager
 
         fishViewModel.allFish.observe(viewLifecycleOwner, Observer { fish ->
             fish?.let {
@@ -66,6 +87,9 @@ class HomeFragment : Fragment() {
                     monthlyFishTV.text = fishDictionary.getCurrentlyCatchableFish(it, activity)
                     fishCaughtTV.text =
                         "${fishDictionary.getFishCaught(it)}/${fishDictionary.getAllFish().size}"
+
+                    fishAdapter = FishBugAdapter(this, fishDictionary.getCurrentCatchableFish(it), null)
+                    fishRV.adapter = fishAdapter
                 }
             }
         })
@@ -77,6 +101,8 @@ class HomeFragment : Fragment() {
                     monthlyBugsTV.movementMethod = LinkMovementMethod.getInstance()
                     monthlyBugsTV.text = bugDictionary.getCurrentCatchableBugs(it, activity)
                     bugsCaughtTV.text = "${bugDictionary.getBugsCaught(it)}/${bugDictionary.getAllBugs().size}"
+
+                    bugsRV.adapter = FishBugAdapter(this, null, bugDictionary.getCurrentCatchableBugs(it))
                     
                     val timeUtil = TimeUtil()
                     Log.d(TAG, "onViewCreated: Time conversion: ${it[22].time} ${timeUtil.convertTimeToList(it[22].time)}")
@@ -91,9 +117,34 @@ class HomeFragment : Fragment() {
                     monthlySeaCreaturesTV.movementMethod = LinkMovementMethod.getInstance()
                     monthlySeaCreaturesTV.text = seaCreatureDictionary.getCurrentCatchableSeaCreatures(it, activity)
                     seaCreaturesCaughtTV.text = "${seaCreatureDictionary.getSeaCreaturesCaught(it)}/${seaCreatureDictionary.getAllSeaCreatures().size}"
+
+                    seaCreaturesRV.adapter = SeaCreatureAdapter(this, seaCreatureDictionary.getCurrentCatchableSeaCreatures(it))
                 }
             }
         })
+
+        iconSW.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) {
+                monthlyFishTV.visibility = View.GONE
+                fishRV.visibility = View.VISIBLE
+                fishRV.adapter = fishAdapter
+
+                monthlyBugsTV.visibility = View.GONE
+                bugsRV.visibility = View.VISIBLE
+
+                monthlySeaCreaturesTV.visibility = View.GONE
+                seaCreaturesRV.visibility = View.VISIBLE
+            } else {
+                monthlyFishTV.visibility = View.VISIBLE
+                fishRV.visibility = View.GONE
+
+                monthlyBugsTV.visibility = View.VISIBLE
+                bugsRV.visibility = View.GONE
+
+                monthlySeaCreaturesTV.visibility = View.VISIBLE
+                seaCreaturesRV.visibility = View.GONE
+            }
+        }
     }
 
     companion object {

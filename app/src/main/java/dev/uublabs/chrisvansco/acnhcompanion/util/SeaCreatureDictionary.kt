@@ -127,6 +127,26 @@ class SeaCreatureDictionary(context: Context?) {
         return spannableStringBuilder
     }
 
+    fun getCurrentCatchableSeaCreatures(seaCreatures: List<SeaCreature>): List<SeaCreature> {
+        seaCreatureList = seaCreatures as MutableList<SeaCreature>
+        val currSeaCreaturesList =  mutableListOf<SeaCreature>()
+
+        val timeUtil = TimeUtil()
+        val calendar: Calendar = Calendar.getInstance()
+        val currMonth = convertToMonthString(calendar.get(Calendar.MONTH))
+        val time = calendar.get(Calendar.HOUR_OF_DAY)
+
+        for (s: SeaCreature in seaCreatureList) {
+            if (s.monthNH.contains(currMonth) || s.monthNH.contains("All Months")) {
+                if (timeUtil.isInTimeRange(s, time)) {
+                    currSeaCreaturesList.add(s)
+                }
+            }
+        }
+
+        return currSeaCreaturesList
+    }
+
     fun getStillNeededSeaCreatures(context: FragmentActivity?): SpannableStringBuilder? {
         val spannableStringBuilder = SpannableStringBuilder()
 

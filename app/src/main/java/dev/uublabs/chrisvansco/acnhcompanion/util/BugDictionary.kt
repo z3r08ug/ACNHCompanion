@@ -13,7 +13,6 @@ import android.view.View
 import android.widget.TextView
 import androidx.fragment.app.FragmentActivity
 import dev.uublabs.chrisvansco.acnhcompanion.model.Bug
-import dev.uublabs.chrisvansco.acnhcompanion.model.Fish
 import dev.uublabs.chrisvansco.acnhcompanion.ui.activities.InformationActivity
 import java.io.BufferedReader
 import java.io.IOException
@@ -255,6 +254,26 @@ class BugDictionary(context: Context?) {
             }
         }
         return list
+    }
+
+    fun getCurrentCatchableBugs(bugs: List<Bug>): List<Bug> {
+        bugList = bugs as MutableList<Bug>
+        val currBugsList = mutableListOf<Bug>()
+
+        val timeUtil = TimeUtil()
+        val calendar: Calendar = Calendar.getInstance()
+        val currMonth = convertToMonthString(calendar.get(Calendar.MONTH))
+        val time = calendar.get(Calendar.HOUR_OF_DAY)
+
+        for (b: Bug in bugList) {
+            if (b.monthNH.contains(currMonth) || b.monthNH.contains("All Months")) {
+                if (timeUtil.isInTimeRange(b, time)) {
+                    currBugsList.add(b)
+                }
+            }
+        }
+
+        return currBugsList
     }
 
     fun getCaughtOrNotCaughtBugs(status: String): List<Bug> {

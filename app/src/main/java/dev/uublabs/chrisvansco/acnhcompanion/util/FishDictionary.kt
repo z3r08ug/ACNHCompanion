@@ -122,6 +122,28 @@ class FishDictionary(context: Context?) {
         return spannableStringBuilder
     }
 
+    fun getCurrentCatchableFish(fish: List<Fish>): List<Fish> {
+        Log.d("DICFISH", "getCurrentCatchableFish: ${fish.size}")
+        fishList = fish as MutableList<Fish>
+        val currFishList = mutableListOf<Fish>()
+
+        val timeUtil = TimeUtil()
+        val calendar: Calendar = Calendar.getInstance()
+        val currMonth = convertToMonthString(calendar.get(Calendar.MONTH))
+        val time = calendar.get(Calendar.HOUR_OF_DAY)
+
+        for (f: Fish in fishList) {
+            if (f.monthNH.contains(currMonth) || f.monthNH.contains("All Months")) {
+                if (timeUtil.isInTimeRange(f, time)) {
+                    Log.d("DICFISH", "getCurrentCatchableFish: Added fish son")
+                    currFishList.add(f)
+                }
+            }
+        }
+
+        return currFishList
+    }
+
     private fun convertToMonthString(i: Int): String {
         return when (i) {
             0 -> "January"

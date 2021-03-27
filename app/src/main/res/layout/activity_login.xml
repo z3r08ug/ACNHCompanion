@@ -32,7 +32,8 @@
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:padding="10dp"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:visibility="gone"/>
 
     <EditText
         android:id="@+id/passwordET"
@@ -46,7 +47,8 @@
         android:hint="@string/password"
         android:inputType="textPassword"
         android:padding="10dp"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/loginBTN"
@@ -57,7 +59,8 @@
         android:background="@drawable/button"
         android:onClick="login"
         android:text="@string/login"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/signupBTN"
@@ -68,7 +71,8 @@
         android:background="@drawable/button"
         android:onClick="signUp"
         android:text="@string/sign_up"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/offlineBTN"

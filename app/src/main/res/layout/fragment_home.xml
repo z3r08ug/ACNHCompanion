@@ -103,11 +103,28 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"/>
 
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/iconSW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Display Icons: "
+                android:textSize="22sp"
+                android:layout_below="@id/divider"/>
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_below="@id/iconSW"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
             <TextView
                 android:id="@+id/monthlyFishLabelTV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/divider"
+                android:layout_below="@id/divider1"
                 android:text="@string/catchable_fish"
                 android:textStyle="bold"
                 android:textSize="22sp"/>
@@ -120,12 +137,21 @@
                 android:text="@string/fish_placeholder"
                 android:textSize="22sp"/>
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fishRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                android:layout_below="@id/monthlyFishTV"/>
+
             <View
                 android:id="@+id/divider2"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:background="@android:color/black"
-                android:layout_below="@id/monthlyFishTV"
+                android:layout_below="@id/fishRV"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"/>
 
@@ -146,12 +172,21 @@
                 android:text="@string/bugs_placeholder"
                 android:textSize="22sp"/>
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/bugsRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/monthlyBugsTV"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"/>
+
             <View
                 android:id="@+id/divider3"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:background="@android:color/black"
-                android:layout_below="@id/monthlyBugsTV"
+                android:layout_below="@id/bugsRV"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"/>
 
@@ -172,10 +207,15 @@
                 android:text="@string/bugs_placeholder"
                 android:textSize="22sp"/>
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/seaCreaturesRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/monthlySeaCreaturesTV"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"/>
+
         </RelativeLayout>
     </ScrollView>
-
-
-
-
 </FrameLayout>

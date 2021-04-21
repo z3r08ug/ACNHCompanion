@@ -42,4 +42,5 @@
     <string name="caught">Caught:</string>
     <string name="not_caught">Not Caught:</string>
     <string name="speed">Speed:</string>
+    <string name="title_activity_login_compose">LoginComposeActivity</string>
 </resources>

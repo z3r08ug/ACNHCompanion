@@ -72,7 +72,7 @@ class RegisterActivity : BaseActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
-        startActivity(Intent(this, LoginActivity::class.java))
+        startActivity(Intent(this, LoginComposeActivity::class.java))
         finish()
     }
 

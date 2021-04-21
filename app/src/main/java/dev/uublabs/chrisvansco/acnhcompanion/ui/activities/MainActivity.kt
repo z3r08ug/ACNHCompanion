@@ -63,7 +63,7 @@ class MainActivity : BaseActivity() {
             }
             R.id.action_logout -> {
                 auth.signOut()
-                startActivity(Intent(this, LoginActivity::class.java))
+                startActivity(Intent(this, LoginComposeActivity::class.java))
             }
         }
         return super.onOptionsItemSelected(item)

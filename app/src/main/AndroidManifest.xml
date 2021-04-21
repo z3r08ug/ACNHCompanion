@@ -12,8 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activities.SettingsActivity"
-            android:launchMode="singleInstance"/>
+        <activity
+            android:name=".ui.activities.LoginComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login_compose"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.SettingsActivity"
+            android:launchMode="singleInstance" />
         <activity
             android:name=".ui.activities.SetupActivity"
             android:launchMode="singleInstance" />
@@ -26,18 +40,13 @@
         <activity
             android:name=".ui.activities.LoginActivity"
             android:launchMode="singleInstance">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ui.activities.MainActivity"
             android:launchMode="singleInstance" />
 
-
-        <uses-library android:name="android.test.runner"
+        <uses-library
+            android:name="android.test.runner"
             android:required="false" />
     </application>
 
